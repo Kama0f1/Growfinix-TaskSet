@@ -6,7 +6,7 @@ This project is a small webpage connected to a serverless API. When the button i
 
 - `index.html` is the webpage.
 - `style.css` controls its appearance.
-- `app.js` sends a request to the API and displays the response.
+- `client.js` sends a request to the API and displays the response.
 - `api/tip.js` contains the serverless function.
 
 ## Deploy with Vercel
