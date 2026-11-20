@@ -1,0 +1,7 @@
+{
+  "name": "cloud-service-health-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Beginner health endpoint and status page for Railway",
+  "scripts": { "start": "node server.js" }
+}
