@@ -1,20 +1,15 @@
-# Campus Cloud
+# AtlasMaps resource website
 
-Campus Cloud is a small website that brings together a few learning links for students. It is made with HTML and CSS and can be hosted as a static site on Vercel.
+AtlasMaps is my existing website for learning resources and roadmaps. Its live version is hosted on Vercel at [atlasmaps.dev](https://atlasmaps.dev).
 
-## Files
+## Deployment shown
 
-- `index.html` contains the page content.
-- `style.css` contains the layout and styling.
+The Vercel project is named `atlas`. The dashboard currently shows the production deployment as Ready and lists `atlasmaps.dev`, `www.atlasmaps.dev`, and a Vercel deployment domain. The custom domain `atlasmaps.dev` redirects to `www.atlasmaps.dev`.
 
-## View the site
+## Cloud computing connection
 
-Open `index.html` in a web browser. The resource cards link to external learning sites.
+This project is an example of hosting a public website on a cloud platform. Vercel manages the deployment and serves the website through its network. The site can be opened through a custom domain without running a web server on my computer.
 
-## Deploy with Vercel
+## Source code
 
-Import the GitHub repository into Vercel and set the project root directory to `task1`. Select **Other** as the framework. This site has no build command, so leave that field empty and deploy.
-
-## What I learned
-
-This project helped me understand how a static website can be hosted online. The site does not use a database or a backend server; it is made up of files that the hosting platform serves to visitors.
+The AtlasMaps website source is maintained separately from this repository. This folder documents the existing deployment for the project report; it is not the website source code and should not be deployed as a replacement for AtlasMaps.
