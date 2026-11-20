@@ -1,15 +1,20 @@
-# Project 2 — Serverless Study Tip API
+# Study Tip API
 
-A tiny Vercel Function returns one study tip as JSON. The page calls `GET /api/tip` and displays the response. No database, API key, or third-party service is used.
+This project is a small webpage connected to a serverless API. When the button is pressed, the API returns one study tip as JSON and the page displays it.
 
-## Deploy
+## Project files
 
-Import this folder as its own Vercel project. It contains a static page and the function in `api/tip.js`; Vercel detects the function route. Deploy, open the site, and press **Get a study tip**. Also open `<your-deployment-url>/api/tip` to see the raw JSON response.
+- `index.html` is the webpage.
+- `style.css` controls its appearance.
+- `app.js` sends a request to the API and displays the response.
+- `api/tip.js` contains the serverless function.
 
-## Explain it simply
+## Deploy with Vercel
 
-A browser request reaches `/api/tip`. The cloud platform starts or reuses a small function, the function creates a JSON response, and the request ends. The function does not keep a user session or save data between requests. This is a serverless computing example: the platform manages the server runtime.
+Import the GitHub repository as a new Vercel project and set the root directory to `task2`. Choose **Other** as the framework and leave the build command empty. Deploy the project.
 
-## Evidence
+After deployment, open the site and press **Get a study tip**. To view the API response directly, open the site URL followed by `/api/tip`.
 
-Capture the page after receiving a tip and the raw JSON endpoint. Report response time only if you measure it and state how you measured it.
+## Cloud computing concept
+
+The API function runs when it receives a request and returns a response. It does not save data between requests. Vercel manages the server environment used to run the function.
